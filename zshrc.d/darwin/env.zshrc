@@ -16,7 +16,8 @@ export PATH="$HOME/.rvm/bin:$PATH"
 export JAVA_HOME="$(/usr/libexec/java_home)"
 
 # Maven
-export M2_HOME=/usr/share/maven
+export M2_HOME=/usr/local/share/maven
+export PATH=$PATH:/usr/local/share/maven/bin
 
 #launchctl setenv JAVA_VERSION 1.7
 #launchctl setenv JAVA_HOME "/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home"
