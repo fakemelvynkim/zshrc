@@ -25,5 +25,6 @@ export PATH=$PATH:/usr/local/share/maven/bin
 #JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home"
 
 # Android-platform-tools
-export PATH="/Applications/Develop/code/Android\ Studio.app/sdk/platform-tools:$PATH" #adb
-export PATH="/Applications/Develop/code/Android Studio.app/sdk/build-tools/android-4.4.2:$PATH" # aapt
+ANDROID_HOME="/Users/anoner/Library/sdk/android-sdk"
+export PATH="${ANDROID_HOME}/platform-tools:$PATH" #adb
+export PATH="${ANDROID_HOME}/sdk/build-tools/android-4.4.2:$PATH" # aapt
