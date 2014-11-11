@@ -16,6 +16,10 @@
     alias cdcar='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/android/reverse'
     alias cdcs='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/sh'
     alias cdct='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/temp'
+    alias cdci='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/ios'
+    
+# project
+    alias cdpi='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/ios/iMune.git'
 
 # music
     alias cdms='cd ${SHARED_DIRECTORY}/spotify'
