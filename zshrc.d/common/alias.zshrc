@@ -17,6 +17,7 @@
     alias cdcs='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/sh'
     alias cdct='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/temp'
     alias cdci='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/ios'
+    alias cdcz='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/zaka'
     
 # project
     alias cdpi='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/ios/iMune.git'
