@@ -27,3 +27,6 @@
     alias cdms='cd ${SHARED_DIRECTORY}/spotify'
     alias cdmp='cd ${SHARED_DIRECTORY}/pandora'
     alias cdmy='cd ${SHARED_DIRECTORY}/youtube'
+
+# temp
+    alias cdt="cd ${SHARED_DIRECTORY}/sync/google-drive/codes/temp"
