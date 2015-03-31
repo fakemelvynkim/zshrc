@@ -22,9 +22,7 @@
     alias cdcp='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/python'
 
 # codes.uci
-    alias cdcpl='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/python/32/lab2'
-
-
+    alias cdcpl='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/python/33/lab-current'
     
 # project
     alias cdpi='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/ios/iMune.git'
