@@ -21,6 +21,8 @@
     alias cdczc='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/zaka/CustomerAppAndroid.git'
     alias cdcp='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/python'
     alias cdcua='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/urekaapp/Android'
+    alias cdcum='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/urekaapp/android-mvp'
+    alias cdcuu='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/urekaapp'
 
 # codes.uci
     alias cdcpl='cd ${SHARED_DIRECTORY}/sync/google-drive/codes/python/33/lab-current'

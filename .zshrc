@@ -44,4 +44,4 @@ case ${SYSTEM_OS} in
 esac
 source_zshrc "common"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin":/Users/Shared/Library/sdk/gradle/gradle-2.4 # Add RVM to PATH for scripting
