@@ -14,14 +14,14 @@
     alias cdsdd='cd ${PRIVATE_DROPBOX_HOME_DIRECTORY}'
 
 # codes
-    alias cdc='cd ${PRIVATE_GOOGLE_DRIVE}/code'
-    alias cdcapi='cd ${PRIVATE_GOOGLE_DRIVE}/code/api'
-    alias cdca='cd ${PRIVATE_GOOGLE_DRIVE}/code/android'
+    alias cdc='cd ${PRIVATE_GOOGLE_DRIVE_HOME_DIRECTORY}/code'
+    alias cdcapi='cd ${PRIVATE_GOOGLE_DRIVE_HOME_DIRECTORY}/code/api'
+    alias cdca='cd ${PRIVATE_GOOGLE_DRIVE_HOME_DIRECTORY}/code/android'
 # codes.android
-    alias cdcae='cd ${PRIVATE_GOOGLE_DRIVE}/code/android/example'
-    alias cdcal='cd ${PRIVATE_GOOGLE_DRIVE}/code/android/lib/'
-    alias cdcalu='cd ${PRIVATE_GOOGLE_DRIVE}/code/android/lib/ui/'
-    alias cdcald='cd ${PRIVATE_GOOGLE_DRIVE}/code/android/lib/database/'
+    alias cdcae='cd ${PRIVATE_GOOGLE_DRIVE_HOME_DIRECTORY}/code/android/example'
+    alias cdcal='cd ${PRIVATE_GOOGLE_DRIVE_HOME_DIRECTORY}/code/android/lib/'
+    alias cdcalu='cd ${PRIVATE_GOOGLE_DRIVE_HOME_DIRECTORY}/code/android/lib/ui/'
+    alias cdcald='cd ${PRIVATE_GOOGLE_DRIVE_HOME_DIRECTORY}/code/android/lib/database/'
 
 # music
     alias cdms='cd ${PUBLIC_GOOGLE_DRIVE_HOME_DIRECTORY}/entertain/spotify'
