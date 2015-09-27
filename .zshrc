@@ -45,7 +45,15 @@ source_zshrc() {
 	else
 		for FILE_ZSHRC in ${ZSH_HOME_DIRECTORY}/zshrc.d/$1/*.zshrc
 		do
-			. "$FILE_ZSHRC"
+			case "$FILE_ZSHRC" in
+                *encrypted*)
+                    # exclude encrypted file to be sourced
+                    ;;
+                *)
+                    . "$FILE_ZSHRC"
+                    ;;
+            esac
+
 		done
 	fi
 }
