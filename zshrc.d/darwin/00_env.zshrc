@@ -1,5 +1,3 @@
-# environmen paths
-
 # default PATH. Already preset.
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
@@ -24,7 +22,9 @@ export PATH=$PATH:/usr/local/share/maven/bin
 #JAVA_VERSION="1.7"
 #JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home"
 
-# Android-platform-tools
-ANDROID_HOME="${SHARED_DIRECTORY}/Library/sdk/android"
+# Android
+export ANDROID_HOME="/usr/local/opt/android-sdk" # provided by brew install android-sdk
 export PATH="${ANDROID_HOME}/platform-tools:$PATH" #adb
 export PATH="${ANDROID_HOME}/sdk/build-tools/android-4.4.2:$PATH" # aapt
+# https://facebook.github.io/react-native/docs/getting-started.html
+export PATH="~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:${PATH}"

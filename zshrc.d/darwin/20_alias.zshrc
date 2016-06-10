@@ -6,3 +6,6 @@
 # https://superuser.com/questions/279891/list-all-members-of-a-group-mac-os-x
 members () { dscl . -list /Users | while read user; do printf "$user "; \
     dsmemberutil checkmembership -U "$user" -G "$*"; done | grep "is a member" | cut -d " " -f 1; };
+
+# remove all cache on Xcode
+alias xdel="xcrun simctl erase all" && rm -rf ~/Library/Developer/Xcode/DerivedData

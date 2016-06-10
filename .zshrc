@@ -69,4 +69,3 @@ check_requirements
 init_shared_directory
 init_sync_directory
 source_zshrc "common"
-export PATH="$PATH:$HOME/.rvm/bin":/Users/Shared/Library/sdk/gradle/gradle-2.4 # Add RVM to PATH for scripting
